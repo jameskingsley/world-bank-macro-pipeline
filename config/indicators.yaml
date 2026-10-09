@@ -1,0 +1,29 @@
+indicators:
+  - code: "NY.GDP.MKTP.CD"
+    name: "GDP (Current US$)"
+    category: "Economic Growth"
+  - code: "FP.CPI.TOTL.ZG"
+    name: "Inflation, Consumer Prices (Annual %)"
+    category: "Prices"
+  - code: "SL.UEM.TOTL.ZS"
+    name: "Unemployment Total (% of Total Labor Force)"
+    category: "Labor"
+  - code: "GC.DOD.TOTL.GD.ZS"
+    name: "Central Government Debt (% of GDP)"
+    category: "Fiscal"
+  - code: "NE.EXP.GNFS.ZS"
+    name: "Exports of Goods and Services (% of GDP)"
+    category: "Trade"
+
+countries:
+  - "USA"
+  - "NGA"
+  - "DEU"
+  - "GBR"
+  - "CHN"
+  - "IND"
+  - "BRA"
+  - "ZAF"
+
+start_year: 2010
+end_year: 2025

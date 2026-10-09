@@ -1,0 +1,13 @@
+[
+  {"name": "country_code", "type": "STRING", "mode": "REQUIRED", "description": "ISO-3 country code"},
+  {"name": "country_name", "type": "STRING", "mode": "NULLABLE", "description": "Full country name"},
+  {"name": "indicator_code", "type": "STRING", "mode": "REQUIRED", "description": "World Bank Indicator Code"},
+  {"name": "indicator_name", "type": "STRING", "mode": "NULLABLE", "description": "Human-readable indicator label"},
+  {"name": "category", "type": "STRING", "mode": "NULLABLE", "description": "Macroeconomic domain category"},
+  {"name": "year", "type": "INTEGER", "mode": "REQUIRED", "description": "Observation year"},
+  {"name": "value", "type": "FLOAT", "mode": "NULLABLE", "description": "Raw indicator value"},
+  {"name": "value_formatted", "type": "FLOAT", "mode": "NULLABLE", "description": "Scaled indicator value (e.g. Billions for GDP)"},
+  {"name": "unit_of_measure", "type": "STRING", "mode": "NULLABLE", "description": "Measurement unit indicator"},
+  {"name": "yoy_absolute_change", "type": "FLOAT", "mode": "NULLABLE", "description": "Year-over-Year absolute change"},
+  {"name": "ingested_at", "type": "TIMESTAMP", "mode": "REQUIRED", "description": "UTC execution timestamp"}
+]
